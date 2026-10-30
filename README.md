@@ -42,4 +42,4 @@ Para producción: configurar HTTPS en el proxy de entrada y COOKIE_SECURE=true, 
 
 `preview/index.html` es una demostración independiente y responsiva que funciona sin instalación: navegación, filtro por área, detalle de máquinas, cambios de estado, producción simulada, solicitudes y exportación CSV. Usa datos locales del navegador. No contiene cuentas, contraseñas ni datos de la base del servidor. No equivale a la aplicación completa.
 
-El workflow `.github/workflows/pages.yml` publica esa carpeta cuando se actualiza main. En GitHub, Settings → Pages → Source: GitHub Actions. La aplicación Next.js con servidor Node y PostgreSQL requiere un alojamiento compatible; GitHub Pages solo admite archivos estáticos.
+La vista se publica desde la rama `gh-pages`. En GitHub, Settings → Pages → Source: Deploy from a branch → gh-pages → / (root) → Save. Después de modificar preview, subir main y actualizar la rama de publicación con `git subtree push --prefix preview origin gh-pages`. Un push a main por sí solo no actualiza la vista. La aplicación Next.js con servidor Node y PostgreSQL requiere un alojamiento compatible; GitHub Pages solo admite archivos estáticos.
