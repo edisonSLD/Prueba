@@ -3,3 +3,5 @@
 table{border-collapse:collapse;width:100%;font-size:12px}td,th{padding:12px;text-align:left;border-bottom:1px solid #e3eaf1}.configForm{display:grid;gap:15px;max-width:600px;margin:25px 0}.configForm label{display:grid;gap:8px}
 
 .shell.menu-hidden aside{display:none}.shell.menu-hidden main{margin-left:0;width:100%}.menu-toggle{margin-bottom:18px;min-height:44px}
+
+aside .menu-toggle{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:44px;height:44px;margin:0 auto 20px;padding:0;font-size:22px;color:white;background:transparent;border:1px solid #ffffff30}main .menu-toggle{width:44px;height:44px;padding:0;font-size:22px}.menu-toggle:focus-visible{outline:3px solid #63b4ff;outline-offset:3px}
