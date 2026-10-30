@@ -10,3 +10,5 @@ aside .menu-toggle{display:flex;align-items:center;justify-content:center;flex-s
 .service-alert{animation:servicePulse 2s ease-in-out infinite}.service-label{color:#714900!important;font-weight:bold}.request-panel{max-width:800px}.request-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.request-panel label{display:grid;gap:8px;margin:16px 0}.request-panel textarea{width:100%}.machine small{color:#40546d}
 @media(prefers-reduced-motion:reduce){.service-alert{animation:none;box-shadow:inset 0 0 0 3px #b76a00}}
 @media(max-width:600px){.request-grid{grid-template-columns:1fr}}
+
+.machine{text-align:center}.machine>div{justify-content:center;gap:8px}.machine b{justify-content:center}.machine footer{justify-content:center}
